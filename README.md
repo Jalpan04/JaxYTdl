@@ -39,7 +39,9 @@ Now, you can start using the downloader.
 
 Dependencies:
 Flask: Web framework for Python.
+
 yt-dlp: A tool to download YouTube videos.
+
 ffmpeg: A tool for handling video and audio formats.
 
 
