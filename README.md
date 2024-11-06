@@ -22,18 +22,19 @@ To run JaxYTdl on your local machine, follow these steps:
 Install dependencies: Make sure you have Python installed. Then, install the necessary packages by running:
 
  ```bash
-
 pip install -r requirements.txt
+ ```
 Run the application: Navigate to the folder where you cloned the repository and run:
- ```
- ```bash
 
+ ```bash
 python app.py
-This will start the application locally.
  ```
+This will start the application locally.
+
 Open in your browser: After running the app, open your browser and visit:
 
 http://127.0.0.1:5000/
+
 Now, you can start using the downloader.
 
 Dependencies:
