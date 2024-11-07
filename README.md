@@ -14,7 +14,9 @@
 
 ## Installation Steps:
 To run JaxYTdl on your local machine, follow these steps:
+
 **Clone the repository**:
+
 Open your terminal or command prompt and run:
 ```bash
    git clone https://github.com/Jalpan04/JaxYTdl.git
