@@ -17,17 +17,26 @@ def index():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>YouTube Downloader</title>
+        <title>JaxYTdl - YouTube Downloader</title>
         <style>
+            /* Existing styles */
+            @font-face {
+                font-family: 'Bruno Ace';
+                src: url('{{ url_for("static", filename="fonts/BrunoAce-Regular.woff2") }}') format('woff2'),
+                    url('{{ url_for("static", filename="fonts/BrunoAce-Regular.woff") }}') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
             body {
                 background-color: #121212;
                 color: #ffffff;
-                font-family: Arial, sans-serif;
+                font-family: 'Bruno Ace', sans-serif;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 100vh;
                 margin: 0;
+                flex-direction: column;
             }
             .container {
                 text-align: center;
@@ -37,6 +46,19 @@ def index():
                 background-color: #1e1e1e;
                 width: 50%;
             }
+            /* New styles for header */
+            .header {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                display: flex;
+                align-items: center;
+            }
+            .header h1 {
+                font-size: 24px;
+                margin: 0;
+            }
+            /* Existing input and button styles */
             input[type="text"] {
                 width: 80%;
                 padding: 10px;
@@ -47,11 +69,11 @@ def index():
                 color: #fff;
             }
             input[type="submit"] {
-                padding: 10px 20px;
-                border: none;
+                padding: 10px 15px;
+                background-color: #333;
+                color: #00acea;
+                border: 1px solid #00acea;
                 border-radius: 5px;
-                background-color: #00acea;
-                color: white;
                 cursor: pointer;
             }
             input[type="submit"]:hover {
@@ -60,6 +82,9 @@ def index():
         </style>
     </head>
     <body>
+        <div class="header">
+            <h1>JaxYTdl</h1>
+        </div>
         <div class="container">
             <h1>YouTube Downloader</h1>
             <form action="/get_formats" method="post">
@@ -71,6 +96,8 @@ def index():
     </body>
     </html>
     """
+
+
 
 @app.route('/get_formats', methods=['POST'])
 def get_formats():
@@ -115,7 +142,7 @@ def get_formats():
             body {
                 background-color: #121212;
                 color: #ffffff;
-                font-family: Arial, sans-serif;
+                font-family: 'Bruno Ace', sans-serif;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -136,16 +163,14 @@ def get_formats():
                 border-radius: 8px;
             }
             select, input[type="submit"] {
-                padding: 10px;
-                margin: 10px 0;
-                border: 1px solid #555;
-                border-radius: 5px;
+                padding: 10px 15px;
                 background-color: #333;
-                color: #fff;
-            }
-            input[type="submit"] {
-                background-color: #00acea;
+                color: #00acea;
+                border: 1px solid #00acea;
+                border-radius: 5px;
                 cursor: pointer;
+            }
+           
             }
             input[type="submit"]:hover {
                 background-color: #0080b3;
@@ -219,7 +244,7 @@ def download():
                 body {
                     background-color: #121212;
                     color: #ffffff;
-                    font-family: Arial, sans-serif;
+                    font-family: 'Bruno Ace', sans-serif;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -236,13 +261,12 @@ def download():
                     width: 50%;
                 }
                 a, button {
-                    background-color: #00acea;
-                    color: white;
-                    padding: 10px 20px;
-                    border: none;
+                    padding: 10px 15px;
+                    background-color: #333;
+                    color: #00acea;
+                    border: 1px solid #00acea;
                     border-radius: 5px;
                     cursor: pointer;
-                    text-decoration: none;
                 }
                 a:hover, button:hover {
                     background-color: #0080b3;
@@ -271,7 +295,7 @@ def download():
                 body {
                     background-color: #121212;
                     color: #ffffff;
-                    font-family: Arial, sans-serif;
+                    font-family: 'Bruno Ace', sans-serif;
                     display: flex;
                     justify-content: center;
                     align-items: center;
