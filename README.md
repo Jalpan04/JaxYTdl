@@ -14,7 +14,6 @@
 
 ## Installation Steps:
 To run JaxYTdl on your local machine, follow these steps:
-
 1. **Clone the repository**:
 Open your terminal or command prompt and run:
    ```bash
