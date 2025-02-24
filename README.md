@@ -1,53 +1,67 @@
 # JaxYTdl - YouTube Downloader
 
-**JaxYTdl** is a simple and easy-to-use YouTube video downloader built with **Flask**. It allows you to download YouTube videos in different resolutions or just the audio in MP3 format.
+JaxYTdl is a lightweight and user-friendly YouTube video downloader built with Flask. It allows you to download YouTube videos in various resolutions or extract audio in MP3 format.
 
-## Features:
-- **Download videos** in multiple resolutions (from 144p to 2160p).
-- **Download audio** in MP3 format (audio only).
-- Simple and **user-friendly interface**.
+## Features
+- Download videos in multiple resolutions (144p to 2160p).
+- Extract and download audio in high-quality MP3 format.
+- Simple and intuitive user interface.
+- Fast and reliable performance.
 
-## How to Use:
-1. **Enter the YouTube video URL** into the input field.
-2. Choose the **format** (video or audio) you want to download.
-3. Click the **"Download" button** to start downloading.
+## Screenshots
 
-## Installation Steps:
+### Home Page
+![JaxYTdl Home Page](static/front_page.png)
+
+### Format Selection
+![Format Selection](static/after_input.png)
+
+## How to Use
+1. Enter the YouTube video URL into the input field.
+2. Click "Get Formats" to fetch available download options.
+3. Select the desired format (video or audio).
+4. Click "Download" to start the download process.
+
+## Installation
+
 To run JaxYTdl on your local machine, follow these steps:
 
-**Clone the repository**:
-
-Open your terminal or command prompt and run:
+### Clone the repository:
 ```bash
-   git clone https://github.com/Jalpan04/JaxYTdl.git
+git clone https://github.com/Jalpan04/JaxYTdl.git
+cd JaxYTdl
 ```
-Install dependencies: Make sure you have Python installed. Then, install the necessary packages by running:
 
- ```bash
+### Install dependencies:
+Make sure you have Python installed. Then, install the required packages:
+```bash
 pip install -r requirements.txt
- ```
-Run the application: Navigate to the folder where you cloned the repository and run:
+```
 
- ```bash
+### Run the application:
+```bash
 python app.py
- ```
-This will start the application locally.
+```
 
-Open in your browser: After running the app, open your browser and visit:
-
+### Open in your browser:
+After starting the application, open your browser and visit:
+```
 http://127.0.0.1:5000/
+```
+Now, you can start downloading videos and audio files.
 
-Now, you can start using the downloader.
+## Dependencies
+- **Flask**: Web framework for Python.
+- **yt-dlp**: A powerful tool to download YouTube videos.
+- **FFmpeg**: Required for handling video and audio formats.
 
-Dependencies:
-Flask: Web framework for Python.
+## Contributing
+Feel free to contribute by submitting issues or pull requests to improve JaxYTdl.
 
-yt-dlp: A tool to download YouTube videos.
+## License
+This project is open-source and available under the MIT License.
 
-ffmpeg: A tool for handling video and audio formats.
+---
 
-
-
-
-
+Enjoy seamless YouTube downloads with JaxYTdl! 🚀
 
