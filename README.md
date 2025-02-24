@@ -58,9 +58,6 @@ Now, you can start downloading videos and audio files.
 ## Contributing
 Feel free to contribute by submitting issues or pull requests to improve JaxYTdl.
 
-## License
-This project is open-source and available under the MIT License.
-
 ---
 
 Enjoy seamless YouTube downloads with JaxYTdl! 🚀
