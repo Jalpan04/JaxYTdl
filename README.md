@@ -60,5 +60,8 @@ Feel free to contribute by submitting issues or pull requests to improve JaxYTdl
 
 ---
 
-Enjoy seamless YouTube downloads with JaxYTdl! 🚀
+Enjoy seamless YouTube downloads with JaxYTdl!
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# App specific downloads and temp files
+static/downloads/
+temp.*
+*.mp4
+*.mp3
+*.webm
