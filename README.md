@@ -1,5 +1,7 @@
 # JaxYTdl - YouTube Downloader
 
+![GitHub top language](https://img.shields.io/github/languages/top/Jalpan04/JaxYTdl) ![GitHub repo size](https://img.shields.io/github/repo-size/Jalpan04/JaxYTdl) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 JaxYTdl is a lightweight and user-friendly YouTube video downloader built with Flask. It allows you to download YouTube videos in various resolutions or extract audio in MP3 format.
 
 ## Features
